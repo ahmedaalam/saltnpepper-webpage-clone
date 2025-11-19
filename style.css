@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* Navbar */
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-logo img {
+  height: 80px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn1 {
+  padding: 16px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+.btn2 {
+  background-color: #e81b23;
+  padding: 16px 16px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn2 a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.btn2 i {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("images/hero.webp");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* Section 1 */
+.section1 {
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.salt {
+  font-family: "Plaster", system-ui;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tagline {
+  color: #a7a7a7;
+  font-weight: 500;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  gap: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.box img {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-radius: 3px;
+}
+
+.order-btn {
+  background-color: #000000;
+  color: #ffffff;
+  height: 50px;
+  width: 160px;
+  text-decoration: none;
+  border: 0.5px solid #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Section 2 */
+.section2 {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-text {
+  padding-top: 64px;
+}
+
+.restaurant {
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.div-container {
+  display: flex;
+  gap: 100px;
+  padding-top: 50px;
+}
+
+.city {
+  color: #e81b23;
+  letter-spacing: 5px;
+}
+
+.title2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.pepper {
+  font-family: "Plaster", system-ui;
+}
+
+.location {
+  color: #a7a7a7;
+  display: flex;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.phone {
+  color: #a7a7a7;
+  display: flex;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: #0f0f0f;
+  height: 50px;
+  width: 170px;
+  border: 0.5px solid #ffffff;
+  border-radius: 30px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #ffffff;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.btn i {
+  font-size: 1.5rem;
+  color: #e81b23;
+}
+
+/* Section 3 */
+.wrap-text2 {
+  padding-top: 64px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* Section 4 */
+.section4 {
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.div-container {
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 50px;
+}
+
+.column {
+  width: 400px;
+}
+
+.footer-text {
+  color: #a7a7a7;
+  font-weight: 500;
+  padding-top: 25px;
+}
+
+.link {
+  color: #ffffff;
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 600;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list ul li {
+  padding-top: 20px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: #a7a7a7;
+  font-weight: 500;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.icons-container i {
+  color: #e81b23;
+  font-size: 24px;
+}
